@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="0dp"
+    tools:context=".GetStarted">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="88dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginStart="166dp"
+        android:src="@drawable/add"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress4"
+        android:layout_width="262dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:text="email_id"
+        android:inputType="textEmailAddress"
+        android:autofillHints="Sarthak"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="268dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="324dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="create password"
+        android:autofillHints="Sarthak" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="424dp"
+        android:layout_marginStart="164dp"
+
+        android:text="submit" />
+
+</RelativeLayout>

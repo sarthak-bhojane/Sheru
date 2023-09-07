@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:text="SHERU - Energy Storage Cloud"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="738dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/book" />
+
+    <Button
+        android:id="@+id/ActivityOne"
+        android:layout_width="218dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/ActivityTwo"
+        android:layout_below="@+id/ActivityOne"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/ActivityThree"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ActivityTwo"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Buying process"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>
